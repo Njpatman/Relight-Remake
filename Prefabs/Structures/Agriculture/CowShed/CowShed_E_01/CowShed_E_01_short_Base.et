@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{DF8B95B6A4EA89B4}Prefabs/Structures/Agriculture/CowShed/CowShed_E_01/CowShed_E_01_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{651A6BA0270B3BA9}" {
+  }
+  SCR_BaseInteractiveLightComponent "{651A6BA252DAD3D1}" {
+  }
+  ActionsManagerComponent "{651A6BA2D5064B75}" {
+  }
+ }
+ coords 179.808 0.469 1326.776
+}

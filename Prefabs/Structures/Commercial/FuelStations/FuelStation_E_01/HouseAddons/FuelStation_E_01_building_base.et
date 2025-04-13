@@ -1,0 +1,66 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{651A6267220BF842}" {
+  }
+  SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+   Enabled 1
+   m_aLightData {
+    SCR_BaseLightData "{651A6267D8D1E5D9}" {
+     m_eLightType SPOT
+     m_vLightOffset -4.021 3.167 -1.324
+     m_vLightColor 1 0.969 0.69
+     m_vLightConeDirection 0 -90 1
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6267D8FC01EC}" {
+     m_eLightType SPOT
+     m_vLightOffset -0.499 3.167 -1.324
+     m_vLightColor 1 0.969 0.69
+     m_vLightConeDirection 0 -90 0
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+   }
+   m_fLV 5
+   m_eInitialLightState LIT_ON_SPAWN
+  }
+  ActionsManagerComponent "{651A62672B92174D}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{651A626725BD02B9}" {
+     ContextName "Switch"
+     Position PointInfo "{5882888AD1D28159}" {
+      Offset -2.8806 1.4402 2.2747
+      Angles 0 180 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_SwitchLightUserAction "{651A62674EB628D4}" {
+     ParentContextList {
+      "Switch"
+     }
+     m_sLightDescription "#AR-UserAction_LightGeneratorOn"
+     m_sExtinguishDescription "#AR-UserAction_LightGeneratorOff"
+    }
+   }
+  }
+  ParametricMaterialInstanceComponent "{651A6BB299DF07DF}" {
+   UseUserParamAlpha 0
+  }
+ }
+ coords 105.927 0 1240.372
+}

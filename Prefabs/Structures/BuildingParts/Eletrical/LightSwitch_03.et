@@ -1,0 +1,32 @@
+GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingParts_Base.et" {
+ ID "5111E74D4E7A8DB6"
+ components {
+  ActionsManagerComponent "{651B316D942BD5EB}" {
+   ActionContexts {
+    UserActionContext "{651B316D9733931A}" {
+     ContextName "Switch"
+     Position PointInfo "{651B316D93E1F649}" {
+      Offset 0 0 0.025
+     }
+     Radius 1
+     Height 0
+     LineOfSightCheck 1
+    }
+   }
+   additionalActions {
+    SCR_SwitchLightUserAction "{651B316D345BC606}" {
+     ParentContextList {
+      "Switch"
+     }
+     UIInfo UIInfo "{651B316D300D59B0}" {
+      Name "Toggle Lights"
+     }
+     VisibilityRange 3
+     Duration 0
+     m_sLightDescription "#AR-UserAction_LightGeneratorOn"
+     m_sExtinguishDescription "#AR-UserAction_LightGeneratorOff"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{651A6BA06362703A}" {
+  }
+  SCR_BaseInteractiveLightComponent "{651A92226791D856}" {
+  }
+  ActionsManagerComponent "{651A6BA29F5505FF}" {
+  }
+ }
+ coords 190.394 0.193 1210.996
+}

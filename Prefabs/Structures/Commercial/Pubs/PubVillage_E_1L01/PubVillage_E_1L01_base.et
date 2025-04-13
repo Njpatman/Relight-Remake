@@ -1,0 +1,163 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_BaseInteractiveLightComponent "{651A6BA3A66DC319}" {
+   m_aLightData {
+    SCR_BaseLightData "{651A6BA30C5BAF01}" {
+     m_eLightType SPOT
+     m_vLightOffset -4.344 2.878 1.821
+     m_vLightColor 1 0.958 0.565
+     m_vLightConeDirection 0 -90 1
+     m_fConeAngle 170
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6BA30C7D8AA1}" {
+     m_eLightType SPOT
+     m_vLightOffset -4.277 2.955 -4.607
+     m_vLightColor 1 0.958 0.565
+     m_vLightConeDirection 0 -90 1
+     m_fConeAngle 170
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6BA30C14ADC1}" {
+     m_eLightType SPOT
+     m_vLightOffset 6.58 2.897 -4.112
+     m_vLightColor 1 0.958 0.565
+     m_vLightConeDirection 0 -30 1
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6BA30C038E1D}" {
+     m_eLightType SPOT
+     m_vLightOffset 5.113 2.937 2.828
+     m_vLightColor 1 0.958 0.565
+     m_vLightConeDirection 0 -90 1
+     m_fConeAngle 170
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6BA30C38BF31}" {
+     m_eLightType SPOT
+     m_vLightOffset 1.338 6.626 -0.744
+     m_vLightColor 1 0.958 0.565
+     m_vLightConeDirection -90 -30 1
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+   }
+   m_fLV 5
+   m_eInitialLightState LIT_ON_SPAWN
+  }
+  ActionsManagerComponent "{651A6BA3A27D18DB}" {
+   ActionContexts {
+    UserActionContext "{651A6BA3C2D81796}" {
+     ContextName "Switch"
+     Position PointInfo "{5882888AD1D28159}" {
+      Offset -7.0374 1.0774 -0.7278
+      Angles 0 90 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C2F1F39C}" {
+     ContextName "Switch_2"
+     Position PointInfo "{651A6BB975AC76D6}" {
+      Offset -7.0374 1.0774 -0.5149
+      Angles 0 90 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C2EBDAA4}" {
+     ContextName "Switch_3"
+     Position PointInfo "{651A6BB96D4B5230}" {
+      Offset -4.2593 1.3642 -2.8175
+      Angles 0 180 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C2833599}" {
+     ContextName "Switch_4"
+     Position PointInfo "{651A6BBA9CEE985D}" {
+      Offset -1.6397 1.3642 -4.5618
+      Angles 0 270 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C2BABC90}" {
+     ContextName "Switch_5"
+     Position PointInfo "{651A6BBA8E6A4E77}" {
+      Offset 1.9412 1.5341 -4.8569
+      Angles 0 180 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C551DA93}" {
+     ContextName "Switch_6"
+     Position PointInfo "{651A6BBAB7CA4DA1}" {
+      Offset 2.522 1.4019 -2.7562
+      Angles 0 90 0
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C548F543}" {
+     ContextName "Switch_7"
+     Position PointInfo "{651A6BBAA7AA54E6}" {
+      Offset 5.4778 1.4799 0.2983
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+    UserActionContext "{651A6BA3C57BC3C9}" {
+     ContextName "Switch_8"
+     Position PointInfo "{651A6BBAD5B54741}" {
+      Offset 5.6528 1.4799 0.2983
+     }
+     Radius 1
+     Height 0
+     Omnidirectional 0
+    }
+   }
+   additionalActions {
+    SCR_SwitchLightUserAction "{651A6BA3F9090AB4}" {
+     ParentContextList {
+      "Switch" "Switch_2" "Switch_3" "Switch_4" "Switch_5" "Switch_6" "Switch_7" "Switch_8"
+     }
+     m_sLightDescription "#AR-UserAction_LightGeneratorOn"
+     m_sExtinguishDescription "#AR-UserAction_LightGeneratorOff"
+    }
+   }
+  }
+ }
+ coords 219.988 0 1232.939
+}

@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{5D5DFAA27335CD9A}Prefabs/Structures/Houses/Village/House_Village_E_1L03/House_Village_E_1L03_Base.et" {
+ ID "6653677CF318E96D"
+ components {
+  SignalsManagerComponent "{651A6BA196D7066F}" {
+  }
+  SCR_BaseInteractiveLightComponent "{651A9221902E92DD}" {
+  }
+  ActionsManagerComponent "{651A6BA16A3A24A9}" {
+  }
+ }
+ coords 197.336 0 1173.489
+}

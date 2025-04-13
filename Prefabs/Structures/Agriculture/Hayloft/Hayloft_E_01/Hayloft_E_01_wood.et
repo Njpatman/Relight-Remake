@@ -1,0 +1,8 @@
+SCR_DestructibleBuildingEntity : "{DD1503B65ED9DA65}Prefabs/Structures/Agriculture/Hayloft/Hayloft_E_01/Hayloft_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SCR_BaseInteractiveLightComponent "{651A6BA2434C0956}" {
+  }
+ }
+ coords 121.265 0.306 1308.061
+}
