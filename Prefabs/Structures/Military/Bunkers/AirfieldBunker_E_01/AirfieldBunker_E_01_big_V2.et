@@ -1,0 +1,12 @@
+SCR_DestructibleBuildingEntity : "{84DEA01FFFE606FE}Prefabs/Structures/Military/Bunkers/AirfieldBunker_E_01/AirfieldBunker_E_01_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  SignalsManagerComponent "{651A6BA04C0CB6AF}" {
+  }
+  SCR_BaseInteractiveLightComponent "{651A6BA22C5C9A33}" {
+  }
+  ActionsManagerComponent "{651A6BA2EC82071A}" {
+  }
+ }
+ coords 56.966 3.129 1310.085
+}

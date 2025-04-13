@@ -1,0 +1,8 @@
+GameProject {
+ ID "RelightRemake"
+ GUID "651A626691CBD7C7"
+ TITLE "Relight Remake"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}
