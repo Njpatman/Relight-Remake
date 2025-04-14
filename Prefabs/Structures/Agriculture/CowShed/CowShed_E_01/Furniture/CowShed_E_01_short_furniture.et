@@ -1,3 +1,58 @@
 GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
  ID "56A8CBB92342240A"
+ coords 91.155 1.848 1340.075
+ {
+  GenericEntity {
+   ID "5B18A596C1DB07CF"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E4636DE86B8}" {
+       m_eLightType POINT
+       m_vLightOffset -0.956 1.598 0.293
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection 0 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{9374FFE7DE10E9E5}Assets/Structures/BuildingsParts/Lights/LightIndustrial_02.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
+       m_iLightToChangeXOBMaterialNumber 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5B18A596C1DB07DA"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E465DD28C19}" {
+       m_eLightType POINT
+       m_vLightOffset 0.258 1.506 0.31
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection 0 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{9374FFE7DE10E9E5}Assets/Structures/BuildingsParts/Lights/LightIndustrial_02.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
+       m_iLightToChangeXOBMaterialNumber 1
+      }
+     }
+    }
+   }
+  }
+  GenericEntity : "{FCD5B0DE50F886B7}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_04.et" {
+   ID "651C9E464235A144"
+   coords 0 0 0
+  }
+ }
 }
