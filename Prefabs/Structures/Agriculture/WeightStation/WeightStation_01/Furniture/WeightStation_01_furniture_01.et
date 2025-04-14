@@ -8,7 +8,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      Materials {
       MaterialAssignClass "{651C9E4961007539}" {
        SourceMaterial "LampIndustrial_01_glass"
-       AssignedMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       AssignedMaterial "{0618B31962A22EBA}Assets/Structures/BuildingsParts/Lights/Data/Glass.emat"
       }
      }
     }
@@ -119,6 +119,34 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      m_fLV 2
     }
    }
+  }
+  GenericEntity : "{C1E195E625940F80}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_03.et" {
+   ID "651CCC156BFDDFA5"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651CCC148941131B}" {
+       m_eLightType POINT
+       m_vLightOffset 0.814 1.177 0.397
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection 0 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags 3
+       m_rLightToChangeXOB "{C7373FCEC47A1085}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{0618B31962A22EBA}Assets/Structures/BuildingsParts/Lights/Data/Glass.emat"
+       m_iLightToChangeXOBMaterialNumber 1
+      }
+     }
+     m_fLV 4
+     m_eInitialLightState LIT
+    }
+   }
+   coords -2.201 1.318 -0.573
+   angleY -90
   }
  }
 }

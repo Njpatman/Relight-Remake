@@ -3,9 +3,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
  components {
   SignalsManagerComponent "{651A6267220BF842}" {
   }
-  ParametricMaterialInstanceComponent "{651A6BB299DF07DF}" {
-   UseUserParamAlpha 0
-  }
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 0
    m_aLightData {
