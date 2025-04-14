@@ -1,12 +1,50 @@
 GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingParts_Base.et" {
  ID "5111E74D4E7A8DB6"
  components {
+  SignalsManagerComponent "{651A6267220BF842}" {
+  }
+  SoundComponent "{651B4872C191FB5E}" {
+   Filenames {
+    "{1ED3A632A228710C}Sounds/Items/Equipment/Flashlights/Items_Flashlights.acp"
+   }
+  }
+  SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+   Enabled 1
+   m_aLightData {
+    SCR_BaseLightData "{651A6267D8D1E5D9}" {
+     m_eLightType SPOT
+     m_vLightOffset -4.021 3.167 -1.324
+     m_vLightColor 1 0.969 0.69
+     m_vLightConeDirection 0 -90 1
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+    SCR_BaseLightData "{651A6267D8FC01EC}" {
+     m_eLightType SPOT
+     m_vLightOffset -0.499 3.167 -1.324
+     m_vLightColor 1 0.969 0.69
+     m_vLightConeDirection 0 -90 0
+     m_fConeAngle 150
+     m_fRadius 5
+     m_fIntensityClipEV -10
+     m_eFlareType Disabled
+     m_vFlareOffset 0 0 0
+     m_eLightFlags 3
+    }
+   }
+   m_fLV 5
+   m_eInitialLightState LIT_ON_SPAWN
+  }
   ActionsManagerComponent "{651B316D942BD5EB}" {
    ActionContexts {
     UserActionContext "{651B316D9733931A}" {
      ContextName "Switch"
      Position PointInfo "{651B316D93E1F649}" {
-      Offset 0 0 0.025
+      Offset 0 0 0.089
      }
      Radius 1
      Height 0
@@ -21,12 +59,15 @@ GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingPart
      UIInfo UIInfo "{651B316D300D59B0}" {
       Name "Toggle Lights"
      }
-     VisibilityRange 3
+     VisibilityRange 1
      Duration 0
      m_sLightDescription "#AR-UserAction_LightGeneratorOn"
      m_sExtinguishDescription "#AR-UserAction_LightGeneratorOff"
     }
    }
+  }
+  RplComponent "{58FC7CAC2034C3E2}" {
+   Enabled 1
   }
  }
 }
