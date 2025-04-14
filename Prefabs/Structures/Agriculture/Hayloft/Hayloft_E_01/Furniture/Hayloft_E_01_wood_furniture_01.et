@@ -1,3 +1,55 @@
 GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
  ID "56A8CBB92342240A"
+ {
+  GenericEntity {
+   ID "5B18AA6C53AF5165"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E44C43C4376}" {
+       m_eLightType POINT
+       m_vLightOffset 0.746 1.053 7.501
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection 180 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{9374FFE7DE10E9E5}Assets/Structures/BuildingsParts/Lights/LightIndustrial_02.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
+       m_iLightToChangeXOBMaterialNumber 1
+      }
+     }
+     m_fLV 2
+    }
+   }
+  }
+  GenericEntity {
+   ID "5B18AA6C53AF51B0"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E44EBA396E5}" {
+       m_eLightType POINT
+       m_vLightOffset -2.264 1.094 -0.817
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection -180 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{0A6A467EC3F7D875}Assets/Structures/BuildingsParts/Lights/LightIndustrial_01.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+     }
+     m_fLV 2
+    }
+   }
+  }
+ }
 }
