@@ -266,7 +266,21 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
        m_aLightData {
         RR_BaseLightData "{651C7D5DD0F07D03}" {
          m_eLightType POINT
-         m_vLightOffset 2.041 3.141 1.501
+         m_vLightOffset 1.32 3.161 1.501
+         m_vLightColor 0.672 1 0.994
+         m_vLightConeDirection 0 -90 0
+         m_fRadius 30
+         m_fIntensityClipEV -10
+         m_eFlareType Disabled
+         m_eLightFlags CASTSHADOW
+         m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+         m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+         m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+         m_iLightToChangeXOBMaterialNumber 0
+        }
+        RR_BaseLightData "{651C994AA0AAAAC6}" {
+         m_eLightType POINT
+         m_vLightOffset 2.777 3.138 1.501
          m_vLightColor 0.672 1 0.994
          m_vLightConeDirection 0 -90 0
          m_fRadius 30
@@ -280,7 +294,21 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
         }
         RR_BaseLightData "{651C7D5D300451C4}" {
          m_eLightType POINT
-         m_vLightOffset 7.52 3.126 1.498
+         m_vLightOffset 6.809 3.151 1.498
+         m_vLightColor 0.672 1 0.994
+         m_vLightConeDirection 0 -90 0
+         m_fRadius 30
+         m_fIntensityClipEV -10
+         m_eFlareType Disabled
+         m_eLightFlags CASTSHADOW
+         m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+         m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+         m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+         m_iLightToChangeXOBMaterialNumber 0
+        }
+        RR_BaseLightData "{651C994AA1660C2C}" {
+         m_eLightType POINT
+         m_vLightOffset 8.272 3.166 1.498
          m_vLightColor 0.672 1 0.994
          m_vLightConeDirection 0 -90 0
          m_fRadius 30
@@ -293,8 +321,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_iLightToChangeXOBMaterialNumber 0
         }
        }
-       m_fLV 3
-       m_eInitialLightState OFF
+       m_fLV 1.5
       }
      }
     }
@@ -519,36 +546,66 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
        m_aLightData {
         RR_BaseLightData "{651C7D5BED217952}" {
          m_eLightType POINT
-         m_vLightOffset 1.777 1.731 1.501
+         m_vLightOffset 1.041 1.78 1.501
          m_vLightColor 0.672 1 0.994
          m_vLightConeDirection 0 -90 0
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
-         m_iLightToChangeXOBMaterialNumber 1
+         m_iLightToChangeXOBMaterialNumber 0
+        }
+        RR_BaseLightData "{651C994B7D27D3AF}" {
+         m_eLightType POINT
+         m_vLightOffset 2.492 1.812 1.501
+         m_vLightColor 0.672 1 0.994
+         m_vLightConeDirection 0 -90 0
+         m_fRadius 30
+         m_fIntensityClipEV -10
+         m_eFlareType Disabled
+         m_vFlareOffset 0 0 0
+         m_eLightFlags CASTSHADOW
+         m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+         m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+         m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+         m_iLightToChangeXOBMaterialNumber 0
         }
         RR_BaseLightData "{651C7D5B1B51E380}" {
          m_eLightType POINT
-         m_vLightOffset -1.131 1.736 1.501
+         m_vLightOffset -1.882 1.78 1.501
          m_vLightColor 0.672 1 0.994
          m_vLightConeDirection 0 -90 0
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
-         m_iLightToChangeXOBMaterialNumber 1
+         m_iLightToChangeXOBMaterialNumber 0
+        }
+        RR_BaseLightData "{651C994B7DFA70DB}" {
+         m_eLightType POINT
+         m_vLightOffset -0.399 1.781 1.501
+         m_vLightColor 0.672 1 0.994
+         m_vLightConeDirection 0 -90 0
+         m_fRadius 30
+         m_fIntensityClipEV -10
+         m_eFlareType Disabled
+         m_vFlareOffset 0 0 0
+         m_eLightFlags CASTSHADOW
+         m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+         m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+         m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+         m_iLightToChangeXOBMaterialNumber 0
         }
        }
-       m_fLV 3
+       m_fLV 1.5
       }
      }
     }
