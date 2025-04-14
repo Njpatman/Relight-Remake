@@ -27,6 +27,14 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
    }
   }
   GenericEntity {
+   ID "5B18A596C1DB0633"
+   components {
+    ActionsManagerComponent "{651B316D942BD5EB}" {
+     Enabled 0
+    }
+   }
+  }
+  GenericEntity {
    ID "5B18A596C1DB07CF"
    components {
     SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
@@ -77,9 +85,6 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
   GenericEntity {
    ID "5B18A596C1DB07FC"
    components {
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
      Enabled 0
     }
@@ -87,10 +92,6 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      Enabled 0
     }
    }
-  }
-  GenericEntity : "{FCD5B0DE50F886B7}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_04.et" {
-   ID "651C9E464235A144"
-   coords 0 0 0
   }
  }
 }

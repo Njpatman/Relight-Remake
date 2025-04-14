@@ -20,13 +20,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
      }
     }
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
-     Enabled 0
-    }
-    RplComponent "{651B4879CBE0C7F8}" {
      Enabled 0
     }
     Hierarchy "{651C89799E4E65FC}" {
@@ -273,13 +267,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
      }
     }
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
-     Enabled 0
-    }
-    RplComponent "{651B4879CBE0C7F8}" {
      Enabled 0
     }
     Hierarchy "{651C89799E4E65FC}" {
@@ -306,13 +294,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
      }
     }
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
-     Enabled 0
-    }
-    RplComponent "{651B4879CBE0C7F8}" {
      Enabled 0
     }
     Hierarchy "{651C89799E4E65FC}" {

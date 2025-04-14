@@ -52,9 +52,6 @@ GenericEntity {
   GenericEntity {
    ID "5A3104058D2CD1CA"
    components {
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
      Enabled 0
     }

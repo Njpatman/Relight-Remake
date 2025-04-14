@@ -7,13 +7,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD033"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
-       Enabled 0
-      }
-      RplComponent "{58FC7CAC2034C3E2}" {
        Enabled 0
       }
      }
@@ -21,9 +15,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD048"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
@@ -140,13 +131,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD07C"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
-       Enabled 0
-      }
-      RplComponent "{58FC7CAC2034C3E2}" {
        Enabled 0
       }
      }
@@ -178,9 +163,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD182"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
@@ -189,9 +171,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD18D"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
@@ -200,9 +179,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD192"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
@@ -211,9 +187,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD19D"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
@@ -226,24 +199,9 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
        m_aLightData {
         RR_BaseLightData "{651C7D5C9AFFF588}" {
          m_eLightType POINT
-         m_vLightOffset -2.277 1.174 2.822
+         m_vLightOffset -2.277 1.09 2.822
          m_vLightColor 0.979 1 0.672
          m_vLightConeDirection 0 -90 0
-         m_fRadius 30
-         m_fIntensityClipEV -10
-         m_eFlareType Disabled
-         m_vFlareOffset 0 0 0
-         m_eLightFlags 3
-         m_rLightToChangeXOB "{002CD5F0301AA1D7}Assets/Props/Furniture/LightCeiling_03/LightCeiling_03.xob"
-         m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
-         m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
-         m_iLightToChangeXOBMaterialNumber 1
-        }
-        RR_BaseLightData "{651C897AB12B63A1}" {
-         m_eLightType POINT
-         m_vLightOffset -2.258 1.372 2.798
-         m_vLightColor 0.979 1 0.672
-         m_vLightConeDirection 0 90 0
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
@@ -332,24 +290,9 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
        m_aLightData {
         RR_BaseLightData "{651C7D5CF8F8AD1A}" {
          m_eLightType POINT
-         m_vLightOffset 3.328 1.196 1.808
+         m_vLightOffset 3.328 1.103 1.808
          m_vLightColor 0.979 1 0.672
          m_vLightConeDirection 0 -90 0
-         m_fRadius 30
-         m_fIntensityClipEV -10
-         m_eFlareType Disabled
-         m_vFlareOffset 0 0 0
-         m_eLightFlags 3
-         m_rLightToChangeXOB "{002CD5F0301AA1D7}Assets/Props/Furniture/LightCeiling_03/LightCeiling_03.xob"
-         m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
-         m_rLightToChangeOffXOBMaterial "{A651678F1C0418B0}Assets/Props/Furniture/LightCeiling_03/Data/LightCeiling_03_glass.emat"
-         m_iLightToChangeXOBMaterialNumber 1
-        }
-        RR_BaseLightData "{651C897AA4D3F723}" {
-         m_eLightType POINT
-         m_vLightOffset 3.301 1.421 1.824
-         m_vLightColor 0.979 1 0.672
-         m_vLightConeDirection 0 90 0
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
@@ -371,6 +314,14 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
       SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
        m_fLV 3
        m_eInitialLightState LIT
+      }
+     }
+    }
+    GenericEntity {
+     ID "5A3104058D2CD1CA"
+     components {
+      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+       Enabled 1
       }
      }
     }
@@ -613,9 +564,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     GenericEntity {
      ID "5A3104058D2CD1F8"
      components {
-      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-       Enabled 0
-      }
       ActionsManagerComponent "{651B316D942BD5EB}" {
        Enabled 0
       }
