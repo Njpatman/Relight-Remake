@@ -17,10 +17,14 @@ modded class SCR_BaseInteractiveLightComponent
 		if(m_aSwitches.Contains(owner.GetVObject().GetResourceName()) && GetGame().InPlayMode())
 		{
 			SCR_BaseInteractiveLightComponentClass componentData = SCR_BaseInteractiveLightComponentClass.Cast(GetComponentData(owner));
-			array<ref SCR_BaseLightData> components = componentData.GetLightData();
 			
-			if(components.IsEmpty())
-				SCR_Global.SetMaterial(owner, "{0A94C84B94134E73}Assets/InvisibiltyGoesSoHard.emat");
+			if(componentData)
+			{
+				array<ref SCR_BaseLightData> components = componentData.GetLightData();
+				
+				if(components.IsEmpty())
+					SCR_Global.SetMaterial(owner, "{0A94C84B94134E73}Assets/InvisibiltyGoesSoHard.emat");
+			}
 		};
 	}
 	
@@ -98,6 +102,13 @@ modded class SCR_BaseInteractiveLightComponent
 			};
 		}
 		
+		if(m_aSwitches[0] == owner.GetVObject().GetResourceName() || m_aSwitches[1] == owner.GetVObject().GetResourceName())
+		{
+			vector ypr = owner.GetYawPitchRoll();
+			ypr[2] = ypr[2] + 180;
+			owner.SetYawPitchRoll(ypr);
+		};
+		
 		m_bIsOn = true;
 		m_bUpdate = true;
 		m_CurrentLightData = null;
@@ -149,6 +160,13 @@ modded class SCR_BaseInteractiveLightComponent
 		
 		if (!componentData.GetLightData().IsEmpty())
 		{
+			if(m_aSwitches[0] == owner.GetVObject().GetResourceName() || m_aSwitches[1] == owner.GetVObject().GetResourceName())
+			{
+				vector ypr = owner.GetYawPitchRoll();
+				ypr[2] = ypr[2] - 180;
+				owner.SetYawPitchRoll(ypr);
+			};
+			
 			foreach (SCR_BaseLightData lightData : componentData.GetLightData())
 			{
 				m_CurrentLightData = RR_BaseLightData.Cast(lightData);
