@@ -11,7 +11,7 @@ GenericEntity : "{BEC9710797A5C593}Prefabs/Structures/BuildingParts/Eletrical/Li
   }
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 1
-   m_fLV 5
+   m_fLV 2
    m_eInitialLightState OFF
   }
   ActionsManagerComponent "{651B316D942BD5EB}" {
@@ -46,4 +46,5 @@ GenericEntity : "{BEC9710797A5C593}Prefabs/Structures/BuildingParts/Eletrical/Li
    Enabled 1
   }
  }
+ coords 400.284 1 1524.768
 }

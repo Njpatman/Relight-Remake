@@ -4,9 +4,10 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
   SignalsManagerComponent "{651A6BA32FA97E1E}" {
   }
   SCR_BaseInteractiveLightComponent "{651A6BA3254618BB}" {
+   m_eInitialLightState OFF
   }
   ActionsManagerComponent "{651A6BA320F9AF06}" {
   }
  }
- coords 157.998 0 1237.452
+ coords 0 0 0
 }

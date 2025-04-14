@@ -11,7 +11,7 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
   }
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 1
-   m_fLV 5
+   m_fLV 2
    m_eInitialLightState OFF
   }
   SCR_DestructionMultiPhaseComponent "{651C8979849F5177}" {
@@ -63,4 +63,5 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
   Hierarchy "{651C89799E4E65FC}" {
   }
  }
+ coords 402.477 1 1524.3
 }
