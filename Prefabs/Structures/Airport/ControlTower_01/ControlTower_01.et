@@ -272,11 +272,11 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
-         m_iLightToChangeXOBMaterialNumber 1
+         m_iLightToChangeXOBMaterialNumber 0
         }
         RR_BaseLightData "{651C7D5D300451C4}" {
          m_eLightType POINT
@@ -286,11 +286,11 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fRadius 30
          m_fIntensityClipEV -10
          m_eFlareType Disabled
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
-         m_iLightToChangeXOBMaterialNumber 1
+         m_iLightToChangeXOBMaterialNumber 0
         }
        }
        m_fLV 3
@@ -385,7 +385,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -400,7 +400,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -415,7 +415,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -430,7 +430,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -456,7 +456,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -471,7 +471,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags CHEAP
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -486,6 +486,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
@@ -500,6 +501,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{4C75B33596056778}Assets/Props/Furniture/LampFluorescent_02/LampFluorescent_02.xob"
          m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
          m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"

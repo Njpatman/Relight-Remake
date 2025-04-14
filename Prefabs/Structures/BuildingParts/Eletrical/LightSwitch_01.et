@@ -12,7 +12,7 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 1
    m_fLV 5
-   m_eInitialLightState LIT_ON_SPAWN
+   m_eInitialLightState OFF
   }
   SCR_DestructionMultiPhaseComponent "{651C8979849F5177}" {
    Enabled 0

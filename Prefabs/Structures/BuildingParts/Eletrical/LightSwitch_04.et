@@ -12,7 +12,7 @@ GenericEntity : "{BEC9710797A5C593}Prefabs/Structures/BuildingParts/Eletrical/Li
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 1
    m_fLV 5
-   m_eInitialLightState LIT_ON_SPAWN
+   m_eInitialLightState OFF
   }
   ActionsManagerComponent "{651B316D942BD5EB}" {
    ActionContexts {
