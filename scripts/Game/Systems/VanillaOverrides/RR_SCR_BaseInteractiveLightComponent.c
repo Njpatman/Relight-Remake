@@ -20,7 +20,7 @@ modded class SCR_BaseInteractiveLightComponent
 			array<ref SCR_BaseLightData> components = componentData.GetLightData();
 			
 			if(components.IsEmpty())
-				SCR_Global.SetMaterial(owner, "{0A94C84B94134E73}Assets/InvisibiltyGoesSoHard.emat", false);
+				SCR_Global.SetMaterial(owner, "{0A94C84B94134E73}Assets/InvisibiltyGoesSoHard.emat");
 		};
 	}
 	

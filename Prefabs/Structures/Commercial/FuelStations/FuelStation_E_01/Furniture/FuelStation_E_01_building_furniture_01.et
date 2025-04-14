@@ -86,9 +86,6 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
      }
     }
-    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
     ActionsManagerComponent "{651B316D942BD5EB}" {
      Enabled 0
     }

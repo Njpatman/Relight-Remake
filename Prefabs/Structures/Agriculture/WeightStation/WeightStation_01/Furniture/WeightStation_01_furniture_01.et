@@ -12,22 +12,6 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
      }
     }
-    SCR_BaseInteractiveLightComponent "{651C9E4AB7E4DC92}" {
-     m_aLightData {
-      SCR_BaseLightData "{651C9E4AFA3B432B}" {
-       m_eLightType POINT
-       m_vLightOffset -0.006 -0.358 0.997
-       m_vLightColor 0.979 1 0.672
-       m_vLightConeDirection 0 0 0
-       m_fRadius 30
-       m_fIntensityClipEV -10
-       m_eFlareType Disabled
-       m_vFlareOffset 0 0 0
-       m_eLightFlags CASTSHADOW
-      }
-     }
-     m_fLV 3
-    }
    }
   }
   GenericEntity {
@@ -84,10 +68,24 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
    ID "56E07A4095488A71"
    components {
     SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-     Enabled 0
-    }
-    ActionsManagerComponent "{651B316D942BD5EB}" {
-     Enabled 0
+     m_aLightData {
+      RR_BaseLightData "{651C9955874DD0B0}" {
+       m_eLightType POINT
+       m_vLightOffset -3.25 1.229 -1.137
+       m_vLightColor 0.979 1 0.672
+       m_vLightConeDirection 0 0 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags 3
+       m_rLightToChangeXOB "{C7373FCEC47A1085}Assets/Structures/BuildingsParts/Lights/LampIndustrial_01.xob"
+       m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{ABD1948B3CFD99A4}Assets/Structures/BuildingsParts/Lights/Data/LampIndustrial_01_glass.emat"
+      }
+     }
+     m_fLV 3
+     m_eInitialLightState LIT
     }
     RplComponent "{651B4879CBE0C7F8}" {
      Enabled 0
