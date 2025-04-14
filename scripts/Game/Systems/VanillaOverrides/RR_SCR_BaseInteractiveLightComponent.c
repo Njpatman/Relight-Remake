@@ -29,25 +29,31 @@ modded class SCR_BaseInteractiveLightComponent
 		
 		foreach (SCR_BaseLightData lightData : componentData.GetLightData())
 		{
-			m_CurrentLightData = RR_BaseLightData.Cast(lightData);
-			
-			if (!m_CurrentLightData)
+			if (!lightData)
 				continue;
 			
 			vector mat[4];
 			owner.GetWorldTransform(mat);
 			
-			vector lightDirection = m_CurrentLightData.GetLightConeDirection().Multiply3(mat).Normalized();
-			vector pos = m_CurrentLightData.GetLightOffset().Multiply4(mat);
+			vector lightDirection = lightData.GetLightConeDirection().Multiply3(mat).Normalized();
+			vector pos = lightData.GetLightOffset().Multiply4(mat);
 			
-			GetGame().GetWorld().QueryEntitiesBySphere(pos, 0.85, ProcessEntity);
-			
-			LightEntity light = CreateLight(m_CurrentLightData, pos, lightDirection, LIGHT_EMISSIVITY_START);
+			LightEntity light = CreateLight(lightData, pos, lightDirection, LIGHT_EMISSIVITY_START);
 			if (!light)
 				continue;
 			
 			light.SetFlags(EntityFlags.PROXY);
 			m_aLights.Insert(light);
+			
+			m_CurrentLightData = RR_BaseLightData.Cast(lightData);
+			
+			if (m_CurrentLightData)
+			{
+				vector lightPos = m_CurrentLightData.GetLightOffset().Multiply4(mat);
+				
+				if(m_CurrentLightData.m_rLightToChangeOnXOBMaterial && m_CurrentLightData.m_rLightToChangeOffXOBMaterial && m_CurrentLightData.m_rLightToChangeXOB)
+					GetGame().GetWorld().QueryEntitiesBySphere(lightPos, 1, ProcessEntity);
+			};
 		}
 		
 		m_bIsOn = true;
@@ -105,14 +111,19 @@ modded class SCR_BaseInteractiveLightComponent
 			{
 				m_CurrentLightData = RR_BaseLightData.Cast(lightData);
 				
-				RemoveLights();
+				if (!m_CurrentLightData)
+					continue;
 				
 				vector mat[4];
 				owner.GetWorldTransform(mat);
 				
 				vector pos = m_CurrentLightData.GetLightOffset().Multiply4(mat);
-				GetGame().GetWorld().QueryEntitiesBySphere(pos, 0.85, ProcessEntity);
+				
+				if(m_CurrentLightData.m_rLightToChangeOnXOBMaterial && m_CurrentLightData.m_rLightToChangeOffXOBMaterial && m_CurrentLightData.m_rLightToChangeXOB)
+					GetGame().GetWorld().QueryEntitiesBySphere(pos, 1, ProcessEntity);
 			};
+
+			RemoveLights();
 			
 			m_CurrentLightData = null;
 				
