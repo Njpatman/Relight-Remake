@@ -148,7 +148,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      m_aLightData {
       RR_BaseLightData "{651CCC163488EAAC}" {
        m_eLightType POINT
-       m_vLightOffset 0.805 2.102 1.509
+       m_vLightOffset 0.805 1.967 1.509
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
@@ -163,7 +163,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
       RR_BaseLightData "{651CCC1637DDD776}" {
        m_eLightType POINT
-       m_vLightOffset 0.805 2.102 2.835
+       m_vLightOffset 0.805 1.967 2.835
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
@@ -371,7 +371,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      m_aLightData {
       RR_BaseLightData "{651CCC1A5ECDA775}" {
        m_eLightType POINT
-       m_vLightOffset -4.851 2.123 4.595
+       m_vLightOffset -4.851 1.967 4.595
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
@@ -386,7 +386,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
       RR_BaseLightData "{651CCC1A51271961}" {
        m_eLightType POINT
-       m_vLightOffset -3.59 2.123 4.595
+       m_vLightOffset -3.59 1.967 4.595
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
@@ -401,7 +401,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
       RR_BaseLightData "{651CCC15E3F1C330}" {
        m_eLightType POINT
-       m_vLightOffset -1.149 2.123 4.595
+       m_vLightOffset -1.149 1.967 4.595
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
@@ -416,7 +416,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
       }
       RR_BaseLightData "{651CCC15EE93E084}" {
        m_eLightType POINT
-       m_vLightOffset 0.178 2.123 4.595
+       m_vLightOffset 0.178 1.967 4.595
        m_vLightColor 0.672 1 0.994
        m_vLightConeDirection 0 -90 0
        m_fRadius 30
