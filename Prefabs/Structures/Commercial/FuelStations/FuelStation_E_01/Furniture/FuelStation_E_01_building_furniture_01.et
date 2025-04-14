@@ -1,3 +1,98 @@
 GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
  ID "56A8CBB92342240A"
+ {
+  GenericEntity {
+   ID "5B18BE720DF26D09"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E53D23E4018}" {
+       m_eLightType POINT
+       m_vLightOffset 1.735 1.483 3.273
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+      RR_BaseLightData "{651C9E53CCC2F601}" {
+       m_eLightType POINT
+       m_vLightOffset 0.467 1.483 3.273
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+      RR_BaseLightData "{651C9E53C0491430}" {
+       m_eLightType POINT
+       m_vLightOffset -1.354 1.483 3.273
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+      RR_BaseLightData "{651C9E53C49B8499}" {
+       m_eLightType POINT
+       m_vLightOffset -2.649 1.483 3.273
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+     }
+     m_fLV 2
+    }
+   }
+  }
+  GenericEntity {
+   ID "5B18BE720DF26D14"
+   components {
+    MeshObject "{5111E74D5E891458}" {
+     Materials {
+      MaterialAssignClass "{651C9E4C7406DC49}" {
+       SourceMaterial "Common/Materials//ColorPalette/Color_palette"
+       AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+      }
+      MaterialAssignClass "{651C9E4C7406DC72}" {
+       SourceMaterial "window_white"
+       AssignedMaterial "{8FBC3A6E946F056E}Common/Materials/Default_Transparent.emat"
+      }
+     }
+    }
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     Enabled 0
+    }
+    ActionsManagerComponent "{651B316D942BD5EB}" {
+     Enabled 0
+    }
+   }
+  }
+ }
 }

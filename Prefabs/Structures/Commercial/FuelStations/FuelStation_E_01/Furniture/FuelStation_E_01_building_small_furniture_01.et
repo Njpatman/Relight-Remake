@@ -1,3 +1,51 @@
 GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_base.et" {
  ID "56A8CBB92342240A"
+ {
+  GenericEntity {
+   ID "58EA8658FA03457A"
+   coords -0.497 0.108 1.246
+  }
+  GenericEntity : "{939C815973AFEBA5}Prefabs/Structures/BuildingParts/Eletrical/LightSwitch_01.et" {
+   ID "651C9E539D966132"
+   components {
+    SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+     m_aLightData {
+      RR_BaseLightData "{651C9E53B67810DE}" {
+       m_eLightType POINT
+       m_vLightOffset 0.564 1.563 1.501
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+      RR_BaseLightData "{651C9E53A26848FA}" {
+       m_eLightType POINT
+       m_vLightOffset -0.47 1.563 1.501
+       m_vLightColor 0.672 1 0.994
+       m_vLightConeDirection 0 -90 0
+       m_fRadius 30
+       m_fIntensityClipEV -10
+       m_eFlareType Disabled
+       m_vFlareOffset 0 0 0
+       m_eLightFlags CASTSHADOW
+       m_rLightToChangeXOB "{E033A2903B925FB7}Assets/Props/Furniture/LampFluorescent_01/LampFluorescent_01.xob"
+       m_rLightToChangeOnXOBMaterial "{B4830363C6BEE7A6}Assets/Props/Furniture/LampFluorescent_01/Data/LampFluorescent_01_cover_lit.emat"
+       m_rLightToChangeOffXOBMaterial "{383A5AE260BDDE00}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover.emat"
+       m_iLightToChangeXOBMaterialNumber 0
+      }
+     }
+     m_fLV 2
+    }
+   }
+   coords -0.419 1.4 1.243
+   angleY 180
+  }
+ }
 }

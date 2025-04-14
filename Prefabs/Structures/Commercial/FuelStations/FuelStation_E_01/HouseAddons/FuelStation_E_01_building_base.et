@@ -3,8 +3,11 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
  components {
   SignalsManagerComponent "{651A6267220BF842}" {
   }
+  ParametricMaterialInstanceComponent "{651A6BB299DF07DF}" {
+   UseUserParamAlpha 0
+  }
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
-   Enabled 1
+   Enabled 0
    m_aLightData {
     SCR_BaseLightData "{651A6267D8D1E5D9}" {
      m_eLightType SPOT
@@ -35,7 +38,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    m_eInitialLightState LIT_ON_SPAWN
   }
   ActionsManagerComponent "{651A62672B92174D}" {
-   Enabled 1
+   Enabled 0
    ActionContexts {
     UserActionContext "{651A626725BD02B9}" {
      ContextName "Switch"
@@ -58,9 +61,6 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
     }
    }
   }
-  ParametricMaterialInstanceComponent "{651A6BB299DF07DF}" {
-   UseUserParamAlpha 0
-  }
  }
- coords 105.927 0 1240.372
+ coords 0 0 0
 }
