@@ -7,35 +7,10 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
    Filenames {
     "{1ED3A632A228710C}Sounds/Items/Equipment/Flashlights/Items_Flashlights.acp"
    }
+   IncludeInactive 1
   }
   SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
    Enabled 1
-   m_aLightData {
-    SCR_BaseLightData "{651A6267D8D1E5D9}" {
-     m_eLightType SPOT
-     m_vLightOffset -4.021 3.167 -1.324
-     m_vLightColor 1 0.969 0.69
-     m_vLightConeDirection 0 -90 1
-     m_fConeAngle 150
-     m_fRadius 5
-     m_fIntensityClipEV -10
-     m_eFlareType Disabled
-     m_vFlareOffset 0 0 0
-     m_eLightFlags 3
-    }
-    SCR_BaseLightData "{651A6267D8FC01EC}" {
-     m_eLightType SPOT
-     m_vLightOffset -0.499 3.167 -1.324
-     m_vLightColor 1 0.969 0.69
-     m_vLightConeDirection 0 -90 0
-     m_fConeAngle 150
-     m_fRadius 5
-     m_fIntensityClipEV -10
-     m_eFlareType Disabled
-     m_vFlareOffset 0 0 0
-     m_eLightFlags 3
-    }
-   }
    m_fLV 5
    m_eInitialLightState LIT_ON_SPAWN
   }

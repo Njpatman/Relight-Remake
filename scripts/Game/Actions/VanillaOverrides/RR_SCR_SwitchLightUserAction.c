@@ -17,7 +17,7 @@ modded class SCR_SwitchLightUserAction : ScriptedUserAction
 		SoundComponent soundComponent = SoundComponent.Cast(ownerEntity.FindComponent(SoundComponent));
 		if (!soundComponent)
 			return;
-
+		
 		vector offset;
 		if (GetLightAudioPos(offset))
 		{

@@ -1,12 +1,34 @@
 SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
  ID "F0DBA538AC2A0552"
- components {
-  SignalsManagerComponent "{651A6BA1BA5E1A46}" {
-  }
-  SCR_BaseInteractiveLightComponent "{651A9221B1E99292}" {
-  }
-  ActionsManagerComponent "{651A6BA14A77AACD}" {
+ {
+  GenericEntity {
+   ID "5A310405FE5D6FF6"
+   {
+    GenericEntity {
+     ID "5A3104058D2CD057"
+     components {
+      SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
+       m_aLightData {
+        RR_BaseLightData "{651C58A15FF197F1}" {
+         m_eLightType POINT
+         m_vLightOffset 5.779 1.753 4.406
+         m_vLightColor 1 0.969 0.69
+         m_vLightConeDirection -90 0 1
+         m_fRadius 20
+         m_fIntensityClipEV -10
+         m_eFlareType Disabled
+         m_eLightFlags 3
+         m_rLightToChangeXOB "{75A8E7B6F06E47C6}Assets/Props/Furniture/LightWall_01/LightWall_01.xob"
+         m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
+         m_rLightToChangeOffXOBMaterial "{7C64DD61DD6FD4F3}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass.emat"
+         m_iLightToChangeXOBMaterialNumber 1
+        }
+       }
+       m_fLV 4
+      }
+     }
+    }
+   }
   }
  }
- coords 143.552 0 1125.917
 }
