@@ -2,6 +2,48 @@ modded class SCR_BaseInteractiveLightComponent
 {
 	protected RR_BaseLightData m_CurrentLightData;
 	
+	const static ref TStringArray m_aSwitches ={
+		"{B41428EDBCF99A79}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_01.xob",
+		"{D055B781E81BED87}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_02.xob",
+		"{FE85810785DAD54A}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_03.xob",
+		"{BEB5DC297301718A}Assets/Structures/BuildingsParts/Electrical/LightSwitch/LightSwitch_04.xob"
+	};
+	
+	//------------------------------------------------------------------------------------------------
+	override void OnPostInit(IEntity owner)
+	{
+		super.OnPostInit(owner);
+		
+		if(m_aSwitches.Contains(owner.GetVObject().GetResourceName()) && GetGame().InPlayMode())
+		{
+			SCR_BaseInteractiveLightComponentClass componentData = SCR_BaseInteractiveLightComponentClass.Cast(GetComponentData(owner));
+			array<ref SCR_BaseLightData> components = componentData.GetLightData();
+			
+			if(components.IsEmpty())
+				SCR_Global.SetMaterial(owner, "{0A94C84B94134E73}Assets/InvisibiltyGoesSoHard.emat", false);
+		};
+	}
+	
+	override void ToggleLight(bool turnOn, bool skipTransition = false, bool playSound = true)
+	{
+		if (m_bIsOn == turnOn || !GetGame().InPlayMode())
+			return;
+		
+		GetGame().GetCallqueue().CallLater(ToggleLightDelayed, 50, false, turnOn, skipTransition, playSound)
+	}
+	
+	void ToggleLightDelayed(bool turnOn, bool skipTransition = false, bool playSound = true)
+	{
+		SCR_BaseInteractiveLightComponentClass componentData = SCR_BaseInteractiveLightComponentClass.Cast(GetComponentData(GetOwner()));
+		if (!componentData)
+			return;
+		
+		if (turnOn)
+			TurnOn(componentData, skipTransition, playSound);
+		else
+			TurnOff(componentData, playSound);
+	}
+	
 	//------------------------------------------------------------------------------------------------
 	override protected void TurnOn(notnull SCR_BaseInteractiveLightComponentClass componentData, bool skipTransition, bool playSound)
 	{

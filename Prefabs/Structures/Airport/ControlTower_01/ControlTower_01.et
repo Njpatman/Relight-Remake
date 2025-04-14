@@ -370,6 +370,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
      components {
       SCR_BaseInteractiveLightComponent "{651A6267A27CB6E1}" {
        m_fLV 3
+       m_eInitialLightState LIT
       }
      }
     }
