@@ -19,10 +19,11 @@ GenericEntity : "{BEC9710797A5C593}Prefabs/Structures/BuildingParts/Eletrical/Li
     UserActionContext "{651B316D9733931A}" {
      ContextName "Switch"
      Position PointInfo "{651B316D93E1F649}" {
-      Offset 0 0 0.0721
+      Offset 0 0 0.0162
      }
-     Radius 1
+     Radius 0.2
      Height 0
+     Omnidirectional 0
      LineOfSightCheck 1
     }
    }

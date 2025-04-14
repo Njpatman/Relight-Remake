@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7F3ED952B45F90DA}Prefabs/Structures/Industrial/Houses/Warehouse_01/Furniture/Warehouse_01_Office_furniture_02.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

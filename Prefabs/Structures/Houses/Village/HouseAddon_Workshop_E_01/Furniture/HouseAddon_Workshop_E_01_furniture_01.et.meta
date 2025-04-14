@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C9D3E3DC107A003B}Prefabs/Structures/Houses/Village/HouseAddon_Workshop_E_01/Furniture/HouseAddon_Workshop_E_01_furniture_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

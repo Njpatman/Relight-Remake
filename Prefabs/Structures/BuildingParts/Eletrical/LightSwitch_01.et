@@ -14,6 +14,22 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
    m_fLV 5
    m_eInitialLightState LIT_ON_SPAWN
   }
+  SCR_DestructionMultiPhaseComponent "{651C8979849F5177}" {
+   Enabled 0
+   "Additional hit zones" {
+    HitZone Default {
+     HZDefault 1
+     DamageReduction 0
+     DamageThreshold 0
+     "Explosive multiplier" 90
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+   m_fForceToDamageScale 350
+  }
   ActionsManagerComponent "{651B316D942BD5EB}" {
    ActionContexts {
     UserActionContext "{651B316D9733931A}" {
@@ -21,8 +37,9 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
      Position PointInfo "{651B316D93E1F649}" {
       Offset 0 0 0.0162
      }
-     Radius 1
+     Radius 0.2
      Height 0
+     Omnidirectional 0
      LineOfSightCheck 1
     }
    }
@@ -42,6 +59,8 @@ GenericEntity : "{10C26F96EF7A8CF5}Prefabs/Props/Core/Props_Base.et" {
    }
   }
   RplComponent "{651B4879CBE0C7F8}" {
+  }
+  Hierarchy "{651C89799E4E65FC}" {
   }
  }
 }

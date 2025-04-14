@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1C60F9221D84AF8E}Prefabs/Structures/Industrial/Houses/FactoryHall_E_01/Furniture/FactoryHall_E_01_furniture_basement_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
