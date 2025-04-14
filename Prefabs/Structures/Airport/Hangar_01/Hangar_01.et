@@ -310,7 +310,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    additionalActions {
     SCR_SwitchLightUserAction "{651C9E4FEB5D91EF}" {
      ParentContextList {
-      "Switch"
+      "Switch_01" "Switch_02" "Switch_03" "Switch_04"
      }
      UIInfo UIInfo "{651B316D300D59B0}" {
       Name "Toggle Lights"
@@ -322,7 +322,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
    }
   }
  }
- coords 148.411 1.112 1462.172
+ coords 528.191 1.112 1522.224
  {
   GenericEntity {
    ID "56248E9664412D02"
