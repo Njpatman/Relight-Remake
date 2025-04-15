@@ -42,7 +42,7 @@ SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Buil
          m_fIntensityClipEV -10
          m_eFlareType Disabled
          m_vFlareOffset 0 0 0
-         m_eLightFlags 3
+         m_eLightFlags CASTSHADOW
          m_rLightToChangeXOB "{75A8E7B6F06E47C6}Assets/Props/Furniture/LightWall_01/LightWall_01.xob"
          m_rLightToChangeOnXOBMaterial "{71C4DB9B2591501B}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass_lit.emat"
          m_rLightToChangeOffXOBMaterial "{7C64DD61DD6FD4F3}Assets/Props/Furniture/LightWall_01/data/LightWall_01_Glass.emat"
