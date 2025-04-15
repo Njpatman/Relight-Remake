@@ -24,6 +24,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      }
     }
    }
+   angleY 0
   }
   GenericEntity {
    ID "56D87BDC22994A10"
@@ -56,6 +57,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      }
     }
    }
+   angleY 0
   }
   GenericEntity {
    ID "56D87BDC22994A31"

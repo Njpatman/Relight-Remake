@@ -46,5 +46,6 @@ GenericEntity : "{533AC2E8A0F5272A}Prefabs/Structures/BuildingParts/BuildingPart
    Enabled 1
   }
  }
- coords 401.713 1 1524.544
+ coords -0.192 1.513 -2.102
+ angleY -180
 }
