@@ -16,7 +16,7 @@ GenericEntity : "{28411B0C79460DF8}Prefabs/Structures/Core/BuildingFurniture_bas
      m_aLightData {
       RR_BaseLightData "{651CE3CE687FAD1A}" {
        m_eLightType POINT
-       m_vLightOffset 1.131 1.337 3.8
+       m_vLightOffset 1.139 1.327 3.797
        m_vLightColor 0.979 1 0.672
        m_vLightConeDirection 180 0 0
        m_fRadius 30
